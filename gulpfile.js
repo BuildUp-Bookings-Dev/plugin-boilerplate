@@ -84,7 +84,7 @@ function admin_scripts() {
 }
 
 function zipFiles() {
-  const pluginDirectory = 'bub-mapbox';
+  const pluginDirectory = 'plugin-boilerplate';
   
   return gulp.src([
       '**/*',

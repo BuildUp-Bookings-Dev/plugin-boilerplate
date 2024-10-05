@@ -1,7 +1,7 @@
 {
-    "name": "bub-mapbox",
-    "version": "1.2.4",
-    "description": "Mapbox integration with WordPress",
+    "name": "plugin-boilerplate",
+    "version": "1.0.0",
+    "description": "Plugin Boilerplate",
     "main": "index.js",
     "scripts": {
         "build": "gulp build",
