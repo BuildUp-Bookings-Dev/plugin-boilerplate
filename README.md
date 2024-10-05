@@ -48,10 +48,21 @@ To customize this boilerplate for your own plugin, follow the steps below to cha
 
 **Tip:** Use a text editor or IDE with a "Find and Replace" feature to quickly update all instances of the placeholder names across multiple files.
 
-### Step 6: Test Your Plugin
+### Step 6: Run NPM Commands
+
+1. Open a terminal and navigate to the root directory of your plugin.
+2. Run the following commands to manage your plugin's build process:
+   - `npm install`: Installs all the dependencies listed in `package.json`.
+   - `npm run build`: Compiles and builds the plugin assets.
+   - `npm run watch`: Watches for changes in your files and automatically rebuilds them.
+   - `npm run zip`: Creates a zip file of your plugin for distribution.
+   - `npm run deploy`: Builds and zips your plugin, creating a folder called `bundled` in the root directory. This folder contains the final packaged version of your plugin ready for deployment.
+
+### Step 7: Test Your Plugin
 
 1. After making all the changes, test your plugin to ensure it activates and deactivates correctly.
 2. Check for any errors or issues in the WordPress admin area.
+
 
 ## License
 
