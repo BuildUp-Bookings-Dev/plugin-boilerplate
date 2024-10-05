@@ -4,7 +4,7 @@ add_action('wp_enqueue_scripts', PLUGIN_BOILERPLATE_NAME . '_enqueue_public_styl
 add_action('admin_enqueue_scripts', PLUGIN_BOILERPLATE_NAME . '_enqueue_admin_styles_scripts');
 
 global $version;
-$version = plugin_boilerplate_VERSION . '.' . time() . '.' . uniqid();
+$version = PLUGIN_BOILERPLATE_VERSION . '.' . time() . '.' . uniqid();
 
 
 
